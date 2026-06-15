@@ -1,6 +1,7 @@
 services:
   - type: web
     name: evnest-backend
+    plan: free
     env: node
     rootDir: server
     buildCommand: npm install
